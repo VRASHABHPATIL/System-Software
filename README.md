@@ -53,4 +53,4 @@ In the second pass of our Two-Pass Assembler, the assembler utilizes the informa
 
 ### Algorithm
 
-![pass2](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/41613356-80f4-47c5-b7f8-ed9384af4403)
+![pass21](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/88bfa170-48d9-4ef8-ae27-cde96cca2efd)
