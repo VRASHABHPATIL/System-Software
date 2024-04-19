@@ -1,0 +1,4 @@
+STA 	01
++LDCH	02
+STCH	00
+LDA	04

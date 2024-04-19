@@ -1,0 +1,5 @@
+ALPHA 	1015          
+FIVE 	1018  
+MAX	3        
+CHARZ 	6          
+C1 	9
