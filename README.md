@@ -32,3 +32,25 @@ Parsing Instructions: Each line of code is parsed to identify labels, mnemonic i
 
 
 ![pass1](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/c577fb5c-022a-47b2-a0e9-07f547529c34)
+
+### Pass-2
+
+In the second pass of our Two-Pass Assembler, the assembler utilizes the information collected in the first pass to translate the assembly language source code into machine code instructions. This pass focuses on generating the actual binary representation of each instruction and data item.
+
+### Key Steps in Pass 2:
+
+**Reading Source Code**: Similar to Pass 1, the assembler reads the assembly language source code line by line.
+
+**Parsing Instructions**: Each line of code is parsed again to identify labels, mnemonic instructions, operands, and directives. However, in this pass, the assembler focuses on translating these elements into machine code.
+
+**Translating Instructions**: Using the symbol table constructed in Pass 1, the assembler translates mnemonic instructions into their corresponding binary representations. It replaces symbolic operands with their resolved memory addresses or immediate values.
+
+**Generating Object Code**: As instructions are translated, the assembler generates the object code, which consists of binary representations of each instruction and data item. This object code represents the executable machine instructions that will be loaded into memory for execution.
+
+**Error Handling**: Pass 2 continues error detection and reporting. It verifies the correctness of the generated machine code and ensures that all instructions are properly translated. Any errors encountered, such as invalid instructions or unresolved symbols, are reported to the user for resolution.
+
+**Output Generation**: Once the entire source code is processed, the assembler produces the final output, which may include the generated machine code, symbol table, and any additional diagnostic messages or reports.
+
+### Algorithm
+
+![pass2](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/41613356-80f4-47c5-b7f8-ed9384af4403)
