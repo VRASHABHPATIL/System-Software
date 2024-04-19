@@ -15,7 +15,7 @@ This assembler is designed to convert assembly language code into machine code i
 
 In the first pass of our Two-Pass Assembler, the primary goal is to scan the entire assembly language source code and gather essential information about labels, symbols, and addresses. This pass sets the foundation for the subsequent translation process in the second pass.
 
-#### Key Steps in Pass 1:
+### Key Steps in Pass 1:
 
 **Reading Source Code**: The assembler reads the assembly language source code line by line, analyzing each instruction and data declaration.
 Parsing Instructions: Each line of code is parsed to identify labels, mnemonic instructions, operands, and directives.
@@ -28,7 +28,7 @@ Parsing Instructions: Each line of code is parsed to identify labels, mnemonic i
 
 **Handling Pseudo-Operations**: Pseudo-operations, such as EQU (equation) and DS (define storage), are processed in this pass. These directives may affect the symbol table or memory allocation.
 
-##### Algorithm
+### Algorithm
 
 
 ![pass1](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/c577fb5c-022a-47b2-a0e9-07f547529c34)
