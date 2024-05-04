@@ -6,6 +6,8 @@ When a program is compiled, the compiler generates machine code instructions tha
 
 In addition to loading executable files into memory, relocatable loaders may also perform other tasks such as resolving symbolic references, linking external libraries, and allocating resources required by the program. Overall, relocatable loaders play a crucial role in the execution of programs on modern computing systems by providing the flexibility and adaptability needed to support dynamic memory allocation and execution environments.
 
+### Algorithm
+
 
 
 
