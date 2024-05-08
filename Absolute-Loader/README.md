@@ -5,6 +5,5 @@ An absolute loader is a fundamental component of system software responsible for
 ## Algorithm
 
 
-![absolute](https://github.com/VRASHABHPATIL/System-Software/assets/105427388/7e3b07e0-af5e-4767-86ae-4b3fd4729f1f)
-<img src="https://github.com/VRASHABHPATIL/System-Software/assets/105427388/7e3b07e0-af5e-4767-86ae-4b3fd4729f1f"/>
+<img src="https://github.com/VRASHABHPATIL/System-Software/assets/105427388/7e3b07e0-af5e-4767-86ae-4b3fd4729f1f" height="500" width="800"/>
 
